@@ -19,7 +19,7 @@ This repository contains two scripts.
 | setup.sh | shell file which opens a virtual enviroment and installs necessary packages listed in requirements.txt |
 
 ## User instructions
-1. Download the csv files from Kaggle. Then add the files to folder called data. Link to data here:
+1. Download the csv files from Kaggle. Then add the files to folder called data.
 Link to data [here](https://www.kaggle.com/datasets/aashita/nyt-comments). The code in this repository has been trained on a random sampling of 100 comments. I chose only to include one csv file (“CommentsApril2017.csv”).
 
 2. Use **setup.sh** to install the necessary packages required to run the scripts like so: 
