@@ -31,7 +31,7 @@ Link to data [here](https://www.kaggle.com/datasets/aashita/nyt-comments). The c
 `bash run_train.sh`
 
 4. Use **run_txt_gen.sh** to peform text generation. Please note that the model in this repository has only been trained on a random sample of 100 comments. 
-This script uses argparse. Please inform the prompt from which you wish to generate the text. Additionally, add the lenght of the generated text. The example below demonstrates the format: 
+This script uses argparse. Please write the prompt from which you wish to generate the text. Additionally, add the lenght of the generated text. The example below demonstrates the format: 
 
 `bash run_text_gen.sh america 15`
 
@@ -39,11 +39,11 @@ This script uses argparse. Please inform the prompt from which you wish to gener
 
 RNN’s (Recurrent Neural Networks) are especially suited for neural language models. This is due to the fact that RNN’s address the fact that language is sequential and temporarily ordered. At each step in the training process the RNN takes both the given input and the preceding outputs into account. To avoid the vanishing gradient problem, where increased distance between input and previous outputs results in a diminished ability to learn, the model in this repository has a LSTM layer (Long short term memory). This makes the RNN able to learn long-term dependencies.
 
-For my first text generation (examples/America_15.txt) I used a model which had only trained on ten comments in order to see if the code was functioning 
+For my first text generation (examples/America_15.txt) I used a model which had only trained on ten comments in order to see if the code was functioning. I did not expect it to generate a coherent sentence after only having seen ten examples.
 
 >America The Best Best Only Only Only Only Can Only Hello Seen Seen Rear Rear View
 
-I did not expect it to generate a coherent sentence after only having seen ten examples. Next, I trained it on 100 comments to see if there would be any improvement. This is one of the sentences it generated: 
+Next, I trained it on 100 comments to see if there would be any improvement. This is one of the sentences it generated: 
 
 >America Is The Person Of Interrupting Who It Is The Person Of The Republican Quinn
 
