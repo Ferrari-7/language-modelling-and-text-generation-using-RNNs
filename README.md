@@ -30,7 +30,8 @@ Link to data [here](https://www.kaggle.com/datasets/aashita/nyt-comments). The c
 
 `bash run_train.sh`
 
-4. Use **run_txt_gen.sh** to peform text generation. Please note that the model in this repository has only been trained on a random sample of 100 comments. This script uses argparse. Please inform the prompt from which you wish to generate the text. Additionally, add the lenght of the generated text. The example below demonstrates the format: 
+4. Use **run_txt_gen.sh** to peform text generation. Please note that the model in this repository has only been trained on a random sample of 100 comments. 
+This script uses argparse. Please inform the prompt from which you wish to generate the text. Additionally, add the lenght of the generated text. The example below demonstrates the format: 
 
 `bash run_text_gen.sh america 15`
 
